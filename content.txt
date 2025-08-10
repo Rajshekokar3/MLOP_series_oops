@@ -10,6 +10,10 @@
     > easy to colab
 
 5. End to End project(Chatbookclass)
+    > function vs methods
+    > dundar method
+    > self
+    > we can create attribut outside class
     > encapsulation
-    > getter and setter
-    > staticmethod
+    > getter and setter # to get the hidden attribut and to set the attribute
+    > static method

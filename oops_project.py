@@ -1,9 +1,27 @@
 class chatbook:
+    __user_id=0
     def __init__(self):
-        self.username=""
+        self.id=chatbook.__user_id
+        chatbook.__user_id+=1
+        self.__username="hello daddy" # hidden attribute  or we can say privac 
         self.password =""
         self.loggedin=False
-        self.menu()
+    # using static method directly from class rather than object
+    @staticmethod
+    def get_id(): # when we are creating static method we dont give static method and for accesing it dont requied object
+        return chatbook.__user_id
+    
+    @staticmethod
+    def set_id(values):# when we are creating static method we dont give static method and for accesing it dont requied object
+        chatbook.__user_id=values
+    
+    
+    def get_name(self):
+        return self.__username
+    
+    def set_name(self,value):
+        self.__username=value
+        
     
     def menu(self):
         user_input=input("""Welcome to chatbooks !! How would you like to proced?
@@ -65,5 +83,3 @@ class chatbook:
             print("Signned in first")
             self.menu()   
 
-
-user1=chatbook()
