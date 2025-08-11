@@ -14,6 +14,17 @@
     > dundar method
     > self
     > we can create attribut outside class
+    
+    
     > encapsulation
     > getter and setter # to get the hidden attribut and to set the attribute
     > static method
+
+    > Inheritance
+    > Inheritance code example 
+    > why inheritance is need?(code reusibility,parent has no acces to child class) 
+    > what gets inherited? -Constructor,Non private attribute ,Non private methods
+    > Construction overloading and method overloading
+    > Super keyword(can be used only inside class ,can not access varibles/attributes, used only inside class )
+
+    >Type of inheritance -1. Single inheritance | 2 .Multilevel | 3. Hieracical inheritance | 4. Multiple <Diamond Problem> | 5 .Hybrid
